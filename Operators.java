@@ -29,6 +29,6 @@ public class Operators {
         int result1 = n++;
         System.out.println(result1);
         //fetching the value first and increase next. but the fetching value only assigned to the variable
-        
     }
 }
+
