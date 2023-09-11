@@ -39,6 +39,7 @@ class switchstatement{
         
             default:
                 System.out.print("nothing");
+                System.out.print("nothing");
             break;
         }
     }
