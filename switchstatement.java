@@ -42,5 +42,55 @@ class switchstatement{
                 System.out.print("nothing");
             break;
         }
+        //im putting new version of switch statement in this class
+        newversion obj1 = new newversion();
+        obj1.display();
+        newversion2 obj2 = new newversion2();
+        obj2.display();
+        newversion3 obj3 = new newversion3();
+        obj3.display();
+
+
+    }
+}
+
+// Updated Version of switch statement
+//below here is the new syntax for the switch statement
+class newversion{
+    void display(){
+    String day = "Sunday";
+    switch(day)
+    {
+        case "Saturday", "Sunday" -> System.out.println("6am");
+
+        case "Monday" -> System.out.println("8am");
+        default -> System.out.println("nope");
+    }
+    }
+}
+class newversion2{
+    void display(){
+        String day = "Monday";
+        String result = "";
+        switch(day)
+        {
+            case "Monday", "Tuesday" -> result = "6 am";
+            case "Saturday" -> result = "7am";
+        }
+        System.out.println(result);
+    }
+}
+
+class newversion3{
+    void display(){
+        String day = "Wednesday";
+        String result ="";
+        result = switch(day)
+        {
+            case "Monday", "Tuesday" -> "6 am";
+            case "Saturday" -> "7am";
+            default -> "2 am";
+        };
+        System.out.println(result);
     }
 }

@@ -25,7 +25,6 @@ public static void main(String[] args) {
         k++;
     }
     while(k >= 5);
-
 }
 }
 //creating a non-public class
@@ -36,6 +35,9 @@ class Loopingclass{
     }
 }
 // Above public class calls the non-public class.
+
+
+
 
 
 
