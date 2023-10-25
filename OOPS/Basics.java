@@ -1,3 +1,5 @@
+package OOPS.java;
+
 // //* object oriented programming language
 // object - Behaviour but a blueprint
 // */
@@ -10,20 +12,20 @@
 
 
 
-// public class OOPS {
+// public class basics {
 //     public static void main(String[] args) {
 
 //     }
 // }
 
-class calculator{
+class Calculator{
     public int add(int n1, int n2){
         int r = n1 + n2;
         return r;
-    }
-    
+    }   
 } 
-public class OOPS{
+
+public class Basics{
     public static void main(String[] args){
         int n1 = 4;
         int n2 = 5;
@@ -32,9 +34,4 @@ public class OOPS{
         System.out.println(result);
     }
 }
-
-
-
-
-
 

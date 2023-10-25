@@ -6,6 +6,7 @@ public static void main(String[] args) {
     Loopingclass objname = new Loopingclass();
     //calling methods using object created
     objname.display();
+    int num[] = {1,2,3,4,5,6};
 
     //for loop
     for (int i=1;i<=3;i++){
@@ -25,13 +26,18 @@ public static void main(String[] args) {
         k++;
     }
     while(k >= 5);
+
+    //enhanced for loop
+    for(int n : num){
+        System.out.print(n + " ");
+    }
 }
 }
 //creating a non-public class
 class Loopingclass{
     //method to be called when called from public class
     void display(){
-        System.out.println("Fuck you raja");
+        System.out.println("Fuck you raja" + " ");
     }
 }
 // Above public class calls the non-public class.
