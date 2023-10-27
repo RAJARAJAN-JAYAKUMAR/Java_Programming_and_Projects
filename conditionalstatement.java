@@ -1,4 +1,4 @@
-public class conditionalstatement {
+public class ConditionalStatement {
     public static void main(String[] args) {
         int x = 91;
         //in java indentation not matters as is in python

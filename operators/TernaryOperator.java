@@ -1,4 +1,5 @@
-public class ternaryoperator {
+package operators;
+public class TernaryOperator {
     public static void main(String[] args) {
         int n = 4;
         int result = 0;

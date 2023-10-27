@@ -24,7 +24,7 @@ Conditions:
 -The case value can have a default label which is optional.
 */
 
-class switchstatement{
+class SwitchStatement{
     public static void main(String[] args) {
         int month = 1;
         String monthname = "";

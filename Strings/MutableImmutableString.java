@@ -1,6 +1,6 @@
-package Strings;
+package strings;
  
-public class Mutable_immutable_string{
+public class MutableImmutableString{
     public static void main(String[] args) {
         String name = "raja";
 

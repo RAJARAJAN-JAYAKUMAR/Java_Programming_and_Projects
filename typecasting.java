@@ -1,7 +1,7 @@
 
 // Type casting
 
-class typecasting{
+class TypeCasting{
     public static void main(String _a[]){
     int a = 127;
     byte k = (byte) a;

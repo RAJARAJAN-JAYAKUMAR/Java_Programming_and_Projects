@@ -1,4 +1,4 @@
-package OOPS.java;
+package oops;
 
 // //* object oriented programming language
 // object - Behaviour but a blueprint

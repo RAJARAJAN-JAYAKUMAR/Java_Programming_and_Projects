@@ -2,7 +2,7 @@
 // think what if methodoverloading concept is not included in java. you'll specify diff names for each method and call it vice versa
 
 package OOPS;
-public class methodoverloading {
+public class MethodOverloading {
 
     static int max(int a, int b){
         return a>b?a:b;  // check a is greater than b using conditional operator

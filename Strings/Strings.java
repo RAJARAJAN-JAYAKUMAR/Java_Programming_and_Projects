@@ -1,4 +1,4 @@
-package Strings;
+package strings;
 /*
 use double quotes for String literal
 use single quote for char literal 
