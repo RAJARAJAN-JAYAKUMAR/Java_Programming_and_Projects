@@ -1,4 +1,4 @@
-package Algorithms;
+package algorithms;
 public class SelectionSort {
     public static void main(String[] args) {
         int nums[] = {6,5,4,2,1,9};
