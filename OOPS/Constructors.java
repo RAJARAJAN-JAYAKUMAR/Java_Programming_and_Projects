@@ -5,7 +5,7 @@
 // All classes have constructors by default: if you do not create a class constructor yourself, Java creates one for you. 
 // However, then you are not able to set initial values for object attributes.
 
-package OOPS.java;
+package oops;
                          
 // public class Constructors {
 //     int x;  // class attribute

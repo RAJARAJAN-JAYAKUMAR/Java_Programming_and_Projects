@@ -1,7 +1,7 @@
 // you can convert integer to double, but not double to integer
 // think what if methodoverloading concept is not included in java. you'll specify diff names for each method and call it vice versa
 
-package OOPS;
+package oops;
 public class MethodOverloading {
 
     static int max(int a, int b){

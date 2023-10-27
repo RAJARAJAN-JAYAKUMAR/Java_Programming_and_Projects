@@ -1,5 +1,5 @@
 package operators;
-public class logicaloperators{
+public class LogicalOperators{
     public static void main(String[] args) {
         int a = 10000;
         int b = 10000;

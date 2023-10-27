@@ -29,7 +29,7 @@ public class Basics{
     public static void main(String[] args){
         int n1 = 4;
         int n2 = 5;
-        calculator calc = new calculator();
+        Calculator calc = new Calculator();
         int result = calc.add(n1,n2);
         System.out.println(result);
     }
